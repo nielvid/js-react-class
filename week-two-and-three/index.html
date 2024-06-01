@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week two javascript class</title>
+        <!-- <script src="index.js"></script> -->
+    </head>
+    <body onload="WelcomeAtmUser()">
+ 
+        <h1 id="head-one">Automated Teller Machine Operation</h1>
+        <p>Insert your ATM Card</p>
+        <h2 id="username">Welcome</h2>
+        <!-- <p>Enter your ATM PIN</p>
+        <input type="text" name="pin" id="pin"></input>
+        <button type="button" onclick="submitATmPin()">submit</button> -->
+        <div>
+            <p>what you would you like to do:</p>
+            <p>Click on the button that corresponds to the action you want to perfom</p>
+            <button type="button" onclick="depositIntoAccount()" >1. Deposit</button>
+            <button onclick="withdraw()" >2. Withdrawal</button>
+            <button onclick="checkBalance()">3. Check Balance</button>
+            <button>4. Transfer</button>
+            <button onclick="changePIN()">5 .Change PIN</button>
+            <button>6. Cancel</button>
+           
+            <p id="balance"></p>
+            <p id="account"  class="yellow"></p>
+        </div>
+
+        <div id="deposit">
+            <h4>Judes Account Details</h4>
+            <id id="messages">
+                <p id="msg-one" style="background-color: grey;color: white; "> </p>
+                <p id="msg-two" style="background-color: blue;color: white; "> </p>
+            </div>
+            <!-- <table>
+                <th>
+                    <tr>Account Name</tr>
+                    <tr>Account Number</tr>
+                    <tr>Balance</tr>
+                </th>
+                
+                 
+                        <td>Jude</td>
+                  
+                    <td>
+                    040404
+                    </td>
+                    <td id="balance">
+                        5000
+                    </td>
+              
+
+            </table> -->
+           
+        </div>    
+    
+    
+    
+    
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+
+</html>
